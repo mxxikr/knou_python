@@ -8,3 +8,5 @@
 * [순차 구조](https://mxxikr.notion.site/5-1cc68b7a5618800e8d18f53b7108d38a?pvs=4)
 * [선택 구조](https://mxxikr.notion.site/6-1cc68b7a56188002a449d8bb39221031?pvs=4)
 * [반복 구조](https://mxxikr.notion.site/7-1cc68b7a561880d69cf1e5dc6f4a3073?pvs=4)
+* [체크 포인트](https://mxxikr.notion.site/8-1cc68b7a5618800688b2dbdfc937f0ec?pvs=4)
+* [함수](https://mxxikr.notion.site/9-1db68b7a5618801fbb1de85f8146b44b?pvs=4)
