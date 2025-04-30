@@ -2,8 +2,8 @@
 # 원뿔 클래스 정의(지역 변수)
 class Cone:
     def __init__(self, radius=20, height=30): # 초기자 지정
-		    # 변수 r과 h의 스코프는 __init__ 메소드 내부
-		    # 지역 변수
+		# 변수 r과 h의 스코프는 __init__ 메소드 내부
+		# 지역 변수
         r = radius 
         h = height
 
@@ -106,6 +106,7 @@ class pCone:
     def set_radius(self, radius): # 변경자 통한 데이터 필드 설정
         if radius > 0:# 음수 값이 입력되지 않도록 if문으로 제어
             self.__r = radius
+            
 perfect_cone = pCone(100, 200)
 
 perfect_cone.get_vol() # 기존에 보였던 데이터 필드 r, h가 보이지 않음
