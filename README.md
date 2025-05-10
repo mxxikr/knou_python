@@ -12,3 +12,5 @@
 * [함수](https://mxxikr.notion.site/9-1db68b7a5618801fbb1de85f8146b44b?pvs=4)
 * [객체 지향](https://mxxikr.notion.site/10-1db68b7a561880f0bc2df9c0f7debad0?pvs=4)
 * [모듈](https://mxxikr.notion.site/11-1db68b7a561880258addf5bfcc6e0b1c?pvs=4)
+* [파일](https://mxxikr.notion.site/12-1db68b7a56188092bd02f8de4ac0cfb9?pvs=4)
+* [실전 프로그래밍](https://mxxikr.notion.site/13-1eb68b7a5618807c9917e426c488c688?pvs=4)
