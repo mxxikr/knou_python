@@ -99,7 +99,6 @@ class Tic_Tac_Toe:
                 if item == '*':
                     return False
         return True
-    
 
     # 플레이어 변경
     def next_player(self, player):
@@ -127,7 +126,7 @@ class Tic_Tac_Toe:
 
         # 게임 루프 시작(이벤트가 발생할 때까지 기다림 반복)
         while True:
-				# 다음 플레이어 안내	    
+            # 다음 플레이어 안내	    
             if player == 'X':
                 print("컴퓨터 차례입니다.")
             else:
@@ -136,24 +135,24 @@ class Tic_Tac_Toe:
             # 현재 게임 판 상태 출력
             self.show_board()
 
-                # 사용자 입력 대기, 컴퓨터일 경우 랜덤 위치 반환
+            # 사용자 입력 대기, 컴퓨터일 경우 랜덤 위치 반환
             if player == 'X':
                 while True:
                     row, col = random.randint(1, 3), random.randint(1, 3) # 사용자와 동일한 입력 상황을 맞추기 위해 (1, 3)으로 표기
                     if self.board[row - 1][col - 1] == '*': # 무작위로 입력 받은 게임판의 좌표 값이 빈칸('*')이면 반복을 중단
                         break
-                print("컴퓨터가 행 "	+ str(row) + ", 열" + str(col) + "을/를 선택했습니다.") 
+                print("컴퓨터가 행 " + str(row) + ", 열" + str(col) + "을/를 선택했습니다.") 
                 print()
             else:
                 row, col = list(map(int, input("선택할 빈칸의 위치를 입력하세요: ").split())) # 공백 기준으로 문자 분리
-                print("사용자가 행 "	+ str(row) + ", 열" + str(col) + "을/를 선택했습니다.") 
+                print("사용자가 행 " + str(row) + ", 열" + str(col) + "을/를 선택했습니다.") 
                 print()
 
-				# row, col 입력 값이 0, 0인 경우 게임 종료
+            # row, col 입력 값이 0, 0인 경우 게임 종료
             if row == 0 and col ==0:
                 print("게임을 종료합니다.")
                 break
-            
+
             # 입력 된 위치 표시
             self.mark_spot(row - 1, col - 1, player)
             self.show_board()
@@ -170,7 +169,7 @@ class Tic_Tac_Toe:
             if self.is_board_full() == True:
                 print("무승부 입니다. 다시 도전하세요.")
                 break
-            
+
             # 플레이어 변경 확인
             player = self.next_player(player)
 
