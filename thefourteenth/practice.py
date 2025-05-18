@@ -30,7 +30,7 @@ class Tic_Tac_Toe:
         self.board = [] # 클래스 전역에서 사용하기 위해 self 붙임
 
     # 게임판 초기화
-    def create_board(self):
+    def create_board(self): 
         for i in range(3):
             row = [] # 하나의 행 생성
             for j in range(3):
@@ -90,7 +90,7 @@ class Tic_Tac_Toe:
         if win == True:
             return win
 
-            return False # 행, 열, 대각선 확인 후에도 승리 상황이 아닌 경우는 False 반환
+        return False # 행, 열, 대각선 확인 후에도 승리 상황이 아닌 경우는 False 반환
 
     # 잔여 빈칸 여부 확인
     def is_board_full(self):
