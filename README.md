@@ -13,6 +13,6 @@
 * [객체 지향](https://mxxikr.github.io/posts/knou-python-10/)
 * [모듈](https://mxxikr.github.io/posts/knou-python-11/)
 * [파일](https://mxxikr.github.io/posts/knou-python-12/)
-* [실전 프로그래밍](https://mxxikr.github.io/posts/knou-python-13/)
-* [실전 프로그래밍](https://mxxikr.github.io/posts/knou-python-14/)
+* [실전 프로그래밍 1](https://mxxikr.github.io/posts/knou-python-13/)
+* [실전 프로그래밍 2](https://mxxikr.github.io/posts/knou-python-14/)
 * [체크 포인트](https://mxxikr.github.io/posts/knou-python-15/)
